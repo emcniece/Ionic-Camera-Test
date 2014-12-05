@@ -1,15 +1,22 @@
-<?xml version='1.0' encoding='utf-8'?>
-<widget id="com.emc2innovation.ict" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   	= "http://phonegap.com/ns/1.0"
+    id          	= "com.phonegap.example"
+    versionCode 	= "10"
+    version     	= "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+
     <name>Ionic Camera Test</name>
+
     <description>
-        An Ionic-based app for the Spark Core
+      A demo app for ngCordova Camera
     </description>
-    <author email="emcniece@gmail.com" href="http://emc2innovation.com">
-        Eric McNiece
+
+    <author href="http://emc2innovation.com" email="hello@emc2innovation.com">
+      Eric McNiece
     </author>
-    <content src="index.html" />
-    <access origin="*" />
 
-    <gap:plugin name="org.apache.cordova.camera" version="0.3.2" />
-
+    <!-- We'll include the Barcode plugin as an example -->
+    <gap:plugin name="org.apache.cordova.camera" />
 </widget>
